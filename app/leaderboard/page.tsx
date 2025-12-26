@@ -1,6 +1,7 @@
-import { prisma } from "@/lib/prisma";
-
+export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+
+import { prisma } from "@/lib/prisma";
 
 export default async function LeaderboardPage() {
   const leaderboard = await prisma.ranking.groupBy({
