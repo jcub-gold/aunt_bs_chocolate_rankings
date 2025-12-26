@@ -13,10 +13,10 @@ model User {
 }
 
 model Chocolate {
-  id        Int       @id @default(autoincrement())
-  name      String
-  imageUrl  String
-  rankings  Ranking[]
+  id       Int    @id @default(autoincrement())
+  name     String @unique
+  imageUrl String
+  rankings Ranking[]
 }
 
 model Ranking {
