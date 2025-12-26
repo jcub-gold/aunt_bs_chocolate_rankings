@@ -42,7 +42,7 @@ export default function Home() {
         className="relative z-10 rounded-2xl bg-white/80 dark:bg-zinc-900/80 p-4 shadow-2xl backdrop-blur"
       >
         <Image
-          src="/chocolates/milk_double_hazelnut_crunch.jpg"
+          src="/home/aunt_b.jpg"
           alt="Holiday Chocolate"
           width={360}
           height={360}
